@@ -1,0 +1,95 @@
+.shimmer-loader-container {
+  padding: 12px;
+  background-color: #fff;
+  border: 1px solid;
+  border-color: #e5e6e9 #dfe0e4 #d0d1d5;
+  border-radius: 3px;
+  float: left;
+
+  .shimmer-loader {
+    -webkit-animation-duration: 1s;
+    -webkit-animation-fill-mode: forwards;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-name: shimmeringloader;
+    -webkit-animation-timing-function: linear;
+    background: #f6f7f9;
+    background-image: linear-gradient(to right, #f6f7f9 0%, #e9ebee 20%, #f6f7f9 40%, #f6f7f9 100%);
+    background-repeat: no-repeat;
+    background-size: 800px 104px;
+    height: 104px;
+    position: relative;
+
+    .block {
+      background: #fff;
+      height: 6px;
+      left: 0;
+      position: absolute;
+      right: 0;
+    }
+    .a {
+      height: 40px;
+      left: 40px;
+      right: auto;
+      top: 0;
+      width: 8px;
+    }
+
+    .b {
+      height: 8px;
+      left: 48px;
+      top: 0;
+    }
+    .c {
+      left: 136px;
+      top: 8px;
+    }
+    .d {
+      height: 12px;
+      left: 48px;
+      top: 14px;
+    }
+    .e {
+      left: 100px;
+      top: 26px;
+    }
+    .f {
+      height: 10px;
+      left: 48px;
+      top: 32px;
+    }
+    .g {
+      height: 20px;
+      top: 40px;
+    }
+    .h {
+      left: 410px;
+      top: 60px;
+    }
+    .i {
+      height: 13px;
+      top: 66px;
+    }
+    .j {
+      left: 440px;
+      top: 79px;
+    }
+    .k {
+      height: 13px;
+      top: 85px;
+    }
+    .l {
+      left: 178px;
+      top: 98px;
+    }
+  }
+}
+
+@keyframes shimmeringloader {
+
+  0% {
+    background-position: -468px 0;
+  }
+  100% {
+    background-position: 468px 0;
+  }
+}
