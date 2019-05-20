@@ -1,8 +1,24 @@
 {
   "name": "ngx-shimmering-loader",
-  "version": "0.0.1",
+  "description": "A facebook like loader with animation for your Angular 6 applications.",
+  "version": "1.0.3",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jayed-tz/ngx-shimmering-loader.git"
+  },
+  "author": "jayed talukder <jayed.jt@gmail.com>",
+  "license": "MIT",
   "peerDependencies": {
     "@angular/common": "^6.0.0-rc.0 || ^6.0.0",
     "@angular/core": "^6.0.0-rc.0 || ^6.0.0"
-  }
+  },
+  "keywords": [
+    "ngx-shimmering-loader",
+    "animation",
+    "facebook animation",
+    "shimmer loader",
+    "shimmer animation",
+    "waiting screen",
+    "shimmer placeholder"
+  ]
 }

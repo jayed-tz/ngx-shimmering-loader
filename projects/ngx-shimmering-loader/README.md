@@ -14,7 +14,7 @@
  ```shell   
  npm install --save ngx-shimmering-loader   
  ```      
-## Getting started      
+ ## Getting started      
  Import the `NgxShimmeringLoaderModule` in your root application module `AppModule` or any other module you need to use the component:      
       
 ```typescript      

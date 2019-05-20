@@ -6,8 +6,12 @@ import {Component, Input, OnInit} from '@angular/core';
   styleUrls: ['./ngx-shimmering-loader.scss']
 })
 export class NgxShimmeringLoaderComponent implements OnInit {
-  @Input() style: any;
-  @Input() elemCount: string;
+  @Input() style = {
+  'width': '200px',
+  'height': '300px',
+  'margin': '10px'
+};
+  @Input() elemCount = 1;
   @Input() isVisible: string;
   count: any[];
 
